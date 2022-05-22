@@ -1,6 +1,6 @@
 export default function Career() {
   return (
-    <section className="career p-8 mx-20 mt-5">
+    <section className="career p-8 mx-10 mt-5">
       <h2 className="text-3xl my-3 font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500">
         Career
       </h2>

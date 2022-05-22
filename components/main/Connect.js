@@ -16,13 +16,13 @@ export default function Connect() {
         {socialMediaLinks.map((item) => {
           return (
             <article
-              className="flex flex-col items-center pb-3"
+              className="flex flex-col items-center pb-3 hover:shadow-md hover:rounded"
               key={item.name}
             >
               <h2 className="uppercase leading-loose mt-8 tracking-wide font-medium text-gray-700">
                 {item.name}
               </h2>
-              <a href={item.href} target="_blank">
+              <a href={item.href} target="_blank" rel="noopener noreferrer">
                 <img
                   src={`/assets/social-media/${item.name}.svg`}
                   alt={item.name}
