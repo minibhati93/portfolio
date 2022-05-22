@@ -6,24 +6,24 @@ export default function Career() {
       </h2>
       <div>
         <article>
-          <div>
-            <span>Cisco</span>
-          </div>
+          <h2>Cisco</h2>
+          <p>Software Engineer</p>
         </article>
         <article>
-          <div>
-            <span>Mobiquity</span>
-          </div>
+          <h2>Mobiquity</h2>
+          <p>Software Engineer</p>
         </article>
         <article>
-          <div>
-            <span>JK Technosoft Ltd</span>
-          </div>
+          <h2>Cognizant</h2>
+          <p>Software Engineer</p>
         </article>
         <article>
-          <div>
-            <span>Aspiring Investments Corp</span>
-          </div>
+          <h2>JK Technosoft Ltd</h2>
+          <p>Software Engineer</p>
+        </article>
+        <article>
+          <h2>Aspiring Investment Corp</h2>
+          <p>Software Engineer</p>
         </article>
       </div>
     </section>

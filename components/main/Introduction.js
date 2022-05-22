@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Introduction() {
   return (
-    <section className="intro px-8 my-8">
+    <section className="px-8 my-8" id="home">
       <div className="flex">
         <div className="w-8/12 ml-20">
           <h2 className="text-6xl my-3 font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500">
