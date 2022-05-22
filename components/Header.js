@@ -13,9 +13,6 @@ export default function Header() {
             <a href="#blog">Blog</a>
           </li>
           <li className="uppercase cursor-pointer text-sky-900 hover:text-sky-700 font-bold text-lg">
-            <a href="#career">Career</a>
-          </li>
-          <li className="uppercase cursor-pointer text-sky-900 hover:text-sky-700 font-bold text-lg">
             <a href="#about">About</a>
           </li>
           <li className="uppercase cursor-pointer text-sky-900 hover:text-sky-700 font-bold text-lg">

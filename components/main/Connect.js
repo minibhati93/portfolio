@@ -1,11 +1,11 @@
 export default function Connect() {
   const socialMediaLinks = [
     { name: 'twitter', href: 'https://twitter.com/devminibhati' },
-    { name: 'linkedin', href: 'https://twitter.com/devminibhati' },
-    { name: 'hashnode', href: 'https://twitter.com/devminibhati' },
-    { name: 'github', href: 'https://twitter.com/devminibhati' },
-    { name: 'devto', href: 'https://twitter.com/devminibhati' },
-    { name: 'instagram', href: 'https://twitter.com/devminibhati' },
+    { name: 'linkedin', href: 'https://www.linkedin.com/in/minibhati93/' },
+    { name: 'hashnode', href: 'https://hashnode.com/@devminibhati' },
+    { name: 'github', href: 'https://github.com/minibhati93' },
+    { name: 'devto', href: 'https://dev.to/devminibhati' },
+    { name: 'instagram', href: 'https://instagram.com/minibhati' },
   ];
   return (
     <section className="p-8 mx-10 mt-5" id="connect">
@@ -16,18 +16,22 @@ export default function Connect() {
         {socialMediaLinks.map((item) => {
           return (
             <article
-              className="flex flex-col items-center pb-3 hover:shadow-md hover:rounded"
+              className="flex flex-col items-center pb-3"
               key={item.name}
             >
-              <h2 className="uppercase leading-loose mt-8 tracking-wide font-medium text-gray-700">
+              <h2 className="uppercase leading-loose mt-8 tracking-wide font-medium text-gray-700 hover:text-sky-900">
                 {item.name}
               </h2>
-              <a href={item.href} target="_blank" rel="noopener noreferrer">
+              <a
+                href={item.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={item.name}
+              >
                 <img
                   src={`/assets/social-media/${item.name}.svg`}
                   alt={item.name}
-                  width="90px"
-                  height="90px"
+                  className="w-10"
                 />
               </a>
             </article>
