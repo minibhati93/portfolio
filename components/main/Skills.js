@@ -1,12 +1,12 @@
 export default function Skills() {
   const skills = [
     'angular',
-    'js',
-    'ts',
+    'javascript',
+    'typescript',
     'sass',
     'ngrx',
     'git',
-    'html',
+    'html5',
     'jquery',
     'vscode',
     'tailwind',
