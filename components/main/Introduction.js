@@ -4,7 +4,7 @@ export default function Introduction() {
   return (
     <section className="px-8 my-8" id="home">
       <div className="flex">
-        <div className="w-8/12 ml-20">
+        <div className="w-8/12 mx-10">
           <h2 className="text-6xl my-3 font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500">
             Mini Bhati
           </h2>
@@ -32,7 +32,7 @@ export default function Introduction() {
         </figure>
       </div>
       <div className="flex mt-6">
-        <button className="shadow-md border text-sky-800 text-xl rounded-lg font-semibold ml-20 mr-4 mt-7 p-3 focus:ring-2 ring-blue-400">
+        <button className="shadow-md border text-sky-800 text-xl rounded-lg font-semibold mx-10 mr-4 mt-7 p-3 focus:ring-2 ring-blue-400">
           DM on Twitter
         </button>
         <button className="shadow-md border text-sky-800 text-xl rounded-lg font-semibold mt-7 p-3 focus:ring-2 ring-blue-400">
