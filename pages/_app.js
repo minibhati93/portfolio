@@ -5,8 +5,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Mini Bhati - All things Web | Developer + Designer</title>
-        <meta name="description" content="All techish" />
+        <title>Mini Bhati | Front End Engineer</title>
+        <meta name="description" content="Web development" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Component {...pageProps} />
