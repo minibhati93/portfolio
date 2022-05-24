@@ -12,7 +12,7 @@ export default function Connect() {
       <h2 className="text-3xl my-3 font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500">
         Connect With Me
       </h2>
-      <div className="grid grid-cols-6 gap-4 rounded-lg shadow-md border p-4">
+      <div className="grid grid-cols-2 md:grid-cols-6 gap-0 md:gap-4 rounded-lg shadow-md border md:p-4">
         {socialMediaLinks.map((item) => {
           return (
             <article
