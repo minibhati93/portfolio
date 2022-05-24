@@ -32,12 +32,22 @@ export default function Introduction() {
         </figure>
       </div>
       <div className="flex mt-6">
-        <button className="shadow-md border text-sky-800 text-xl rounded-lg font-semibold mx-10 mr-4 mt-7 p-3 focus:ring-2 ring-blue-400">
+        <a
+          className="cursor-pointer shadow-md border text-sky-800 text-xl rounded-lg font-semibold mx-10 mr-4 mt-7 p-3 focus:ring-2 ring-blue-400"
+          href="https://twitter.com/devminibhati"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           DM on Twitter
-        </button>
-        <button className="shadow-md border text-sky-800 text-xl rounded-lg font-semibold mt-7 p-3 focus:ring-2 ring-blue-400">
+        </a>
+        <a
+          className="cursor-pointer shadow-md border text-sky-800 text-xl rounded-lg font-semibold mt-7 p-3 focus:ring-2 ring-blue-400"
+          href="https://www.linkedin.com/in/minibhati93/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Connect on Linkedin
-        </button>
+        </a>
       </div>
     </section>
   );
