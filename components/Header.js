@@ -9,9 +9,9 @@ export default function Header() {
           <li className="uppercase cursor-pointer text-sky-900 hover:text-sky-700 font-bold text-lg">
             <a href="#skills">Skills</a>
           </li>
-          <li className="uppercase cursor-pointer text-sky-900 hover:text-sky-700 font-bold text-lg">
+          {/* <li className="uppercase cursor-pointer text-sky-900 hover:text-sky-700 font-bold text-lg">
             <a href="#blog">Blog</a>
-          </li>
+          </li> */}
           <li className="uppercase cursor-pointer text-sky-900 hover:text-sky-700 font-bold text-lg">
             <a href="#talks">Talks</a>
           </li>

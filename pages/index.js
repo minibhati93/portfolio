@@ -14,7 +14,6 @@ export default function Home() {
       <main>
         <Introduction />
         <Skills />
-        <Blog />
         <Talks />
         <About />
         <Connect />
