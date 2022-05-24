@@ -6,20 +6,24 @@ export default function About() {
       </h2>
       <div className="rounded-lg shadow-md border p-8">
         <p className="block leading-loose racking-wide font-medium text-gray-700">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-          ante velit, rhoncus eu dolor ultricies, mollis pellentesque mi. Nulla
-          vitae justo et turpis congue commodo.
+          My name is Mini Bhati. I am a front end engineer based out of Kolkata,
+          India 🇮🇳. I am currently working as a Software Engineer at Cisco. I
+          have more than 7 years of experience in UI development. In the past, I
+          have worked in engineering teams delivering quality enterprise
+          applications in Angular.
         </p>
+        <br />
         <p className="block leading-loose tracking-wide font-medium text-gray-700">
-          In lacinia suscipit rhoncus. Curabitur lobortis luctus felis.
-          Phasellus vel elit vel ligula pulvinar lacinia. Etiam interdum metus
-          sed magna luctus ullamcorper. luctus ullamcorper.
+          I love Angular and my work at Cisco involves me teaching, working and
+          talking about it all the time. However, I like to explore other UI
+          frameworks as well. I am active community contributer and spends time
+          on twitter talking about my learnings.
         </p>
+        <br />
         <p className="block leading-loose tracking-wide font-medium text-gray-700">
-          Curabitur eleifend semper est vitae scelerisque. Donec magna purus,
-          pharetra ut erat vitae, efficitur hendrerit leo. Praesent ornare risus
-          at libero rhoncus faucibus. Aliquam felis libero, iaculis eu lacus
-          nec, mattis sollicitudin mi.
+          In my spare time, I like to read if not code. I love travelling and
+          exploring various cuisines across the globe. I am ardent believer of
+          living a healthy and happy life.
         </p>
       </div>
     </section>
