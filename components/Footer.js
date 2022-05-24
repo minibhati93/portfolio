@@ -1,7 +1,9 @@
 export default function Footer() {
   return (
-    <footer>
-      <p>Mini Bhati</p>
+    <footer className="mt-10">
+      <p className="text-sm text-center p-5 leading-loose mt-8 tracking-wide font-medium text-gray-700">
+        Copyright © 2022 - Mini Bhati
+      </p>
     </footer>
-  )
+  );
 }
