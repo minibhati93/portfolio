@@ -19,7 +19,7 @@ export default function Connect() {
               className="flex flex-col items-center pb-3"
               key={item.name}
             >
-              <h2 className="uppercase leading-loose mt-8 tracking-wide font-medium text-gray-700 hover:text-sky-900">
+              <h2 className="uppercase leading-loose mt-4 md:mt-8 tracking-wide font-medium text-gray-700 hover:text-sky-900">
                 {item.name}
               </h2>
               <a

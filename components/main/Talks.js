@@ -20,12 +20,12 @@ export default function Talks() {
       <h2 className="text-3xl my-3 font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500">
         Talks
       </h2>
-      <div className="grid grid-cols-4 gap-4 rounded-lg shadow-md border p-4">
+      <div className="grid grid-cols-1 gap-0 md:grid-cols-4 md:gap-4 rounded-lg shadow-md border p-4">
         {talks.map((talk) => {
           return (
             <article className="flex flex-col items-center" key={talk.title}>
               <h2
-                className="cursor-pointer uppercase leading-loose tracking-wide font-semibold text-gray-700"
+                className="cursor-pointer uppercase leading-loose tracking-wide font-semibold text-gray-700 text-left"
                 onClick={() => openUrl(talk.href)}
               >
                 {talk.title}
@@ -36,7 +36,7 @@ export default function Talks() {
                 onClick={() => openUrl(talk.href)}
                 className="cursor-pointer"
               />
-              <div className="flex justify-between w-full">
+              <div className="flex flex-col w-full">
                 <span className="leading-loose tracking-wide text-xs text-gray-700 font-medium">
                   {talk.date}
                 </span>
