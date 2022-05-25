@@ -8,18 +8,18 @@ export default function Connect() {
     { name: 'instagram', href: 'https://instagram.com/minibhati' },
   ];
   return (
-    <section className="p-8 mx-10 mt-5" id="connect">
+    <section className="p-5 mt-5 md:p-8 md:mx-10" id="connect">
       <h2 className="text-3xl my-3 font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500">
         Connect With Me
       </h2>
-      <div className="grid grid-cols-6 gap-4 rounded-lg shadow-md border p-4">
+      <div className="grid grid-cols-2 md:grid-cols-6 gap-0 md:gap-4 rounded-lg shadow-md border md:p-4">
         {socialMediaLinks.map((item) => {
           return (
             <article
               className="flex flex-col items-center pb-3"
               key={item.name}
             >
-              <h2 className="uppercase leading-loose mt-8 tracking-wide font-medium text-gray-700 hover:text-sky-900">
+              <h2 className="uppercase leading-loose mt-4 md:mt-8 tracking-wide font-medium text-gray-700 hover:text-sky-900">
                 {item.name}
               </h2>
               <a
