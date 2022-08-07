@@ -8,6 +8,14 @@ export default function Talks() {
       slides: '',
       href: 'https://www.youtube.com/watch?v=cq08bFUrNAA',
     },
+    {
+      title: 'Intro to Standalone PDC',
+      organiser: 'Angular Community Meetup',
+      date: '12/07/2022',
+      cover: 'lightningTalks.png',
+      slides: '',
+      href: 'https://www.youtube.com/watch?v=FcPGeqViEfA&t=5593s',
+    },
   ];
 
   const openUrl = (url) => {
