@@ -1,6 +1,6 @@
 export default function BlogItem({ post }) {
   const redirectToHashnode = () => {
-    window.open('https://minibhati.hashnode.dev/' + post.slug, '_blank');
+    window.open('https://hashtrie.com/' + post.slug, '_blank');
   };
 
   return (
