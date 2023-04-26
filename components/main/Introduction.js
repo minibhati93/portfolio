@@ -37,7 +37,7 @@ export default function Introduction() {
       <div className="flex mt-6">
         <a
           className="cursor-pointer shadow-md border text-sky-800 text-md md:text-xl rounded-lg font-semibold mt-4 mr-4 md:mt-7 md:mx-10 p-3 focus:ring-2 ring-blue-400"
-          href="https://twitter.com/devminibhati"
+          href="https://twitter.com/minibhati93"
           target="_blank"
           rel="noopener noreferrer"
         >

@@ -6,9 +6,9 @@ export default function About() {
       </h2>
       <div className="rounded-lg shadow-md border p-8">
         <p className="block leading-loose racking-wide font-medium text-gray-700">
-          My name is Mini Bhati. I am a front end engineer based out of Kolkata,
-          India 🇮🇳. I am currently working as a Software Engineer at Cisco. I
-          have more than 7 years of experience in UI development.
+          My name is Mini Bhati. I am a front end engineer based out of
+          Hyderabad, India 🇮🇳. I am currently working as a Software Engineer at
+          Cisco. I have more than 8 years of experience in UI development.
         </p>
         <p className="hidden md:block leading-loose tracking-wide font-medium text-gray-700">
           In the past, I have worked in engineering teams delivering quality

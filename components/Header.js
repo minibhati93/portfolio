@@ -23,7 +23,7 @@ export default function Header() {
           </li>
         </ul>
       </nav>
-      <div className="flex">
+      {/* <div className="flex">
         <button className="rounded shadow-md border	border-inherit p-2 mr-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +56,7 @@ export default function Header() {
             />
           </svg>
         </button>
-      </div>
+      </div> */}
     </header>
   );
 }

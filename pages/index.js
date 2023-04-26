@@ -38,7 +38,7 @@ export async function getServerSideProps(context) {
     },
     body: JSON.stringify({
       query:
-        'query {user(username: "devminibhati") {publication {posts(page: 0) {title brief slug coverImage dateAdded}}}}',
+        'query {user(username: "minibhati93") {publication {posts(page: 0) {title brief slug coverImage dateAdded}}}}',
     }),
   });
   const publications = await res.json();

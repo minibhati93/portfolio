@@ -1,11 +1,11 @@
 export default function Connect() {
   const socialMediaLinks = [
-    { name: 'twitter', href: 'https://twitter.com/devminibhati' },
+    { name: 'twitter', href: 'https://twitter.com/minibhati93' },
     { name: 'linkedin', href: 'https://www.linkedin.com/in/minibhati93/' },
-    { name: 'hashnode', href: 'https://hashnode.com/@devminibhati' },
+    { name: 'hashnode', href: 'https://hashnode.com/@minibhati93' },
     { name: 'github', href: 'https://github.com/minibhati93' },
     { name: 'devto', href: 'https://dev.to/devminibhati' },
-    { name: 'instagram', href: 'https://instagram.com/minibhati' },
+    { name: 'instagram', href: 'https://instagram.com/minibhati93' },
   ];
   return (
     <section className="p-5 mt-5 md:p-8 md:mx-10" id="connect">
